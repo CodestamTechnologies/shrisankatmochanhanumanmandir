@@ -14,9 +14,9 @@ const Navbar = () => {
             </a>
             <div className='w-[500px] h-full flex flex-row items-center justify-between md:mr-20'>
                 <div className='flex items-center justify-between w-full h-auto border border-[#7042f861] bg-[#0300145e] mr-[5px] px-[20px] py-[10px] rounded-full text-gray-200'>
-                     <a href='#about-us' className='cursor-pointer'>About us</a>
-                     <a href='#services' className='cursor-pointer'>Services</a>
-                     <a href='#solutions' className='cursor-pointer'>Solutions</a>
+                     <a href='#services' className='cursor-pointer'>Gallery</a>
+                     <a href='#solutions' className='cursor-pointer'>Address</a>
+                     <a href='#built-by' className='cursor-pointer'>Built by</a>
                 </div>
             </div>
         </div>
