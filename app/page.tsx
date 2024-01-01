@@ -2,6 +2,7 @@
 import Footer from '@/components/Footer'
 import Hero from '@/components/Hero'
 import Navbar from '@/components/Navbar'
+import Timeline from '@/components/Timeline'
 import Image from 'next/image'
 
 
@@ -11,6 +12,7 @@ export default function Home() {
       <div className='flex flex-col gap-20'>
         <Navbar/>
         <Hero/>
+        <Timeline/>
         <Footer/>
       </div>
     </main>
