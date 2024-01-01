@@ -1,19 +1,11 @@
 import React from "react";
-import {
-  RxDiscordLogo,
-  RxGithubLogo,
-  RxInstagramLogo,
-  RxTwitterLogo,
-  RxLinkedinLogo,
-} from "react-icons/rx";
-import { FaYoutube } from "react-icons/fa";
 import Link from "next/link";
 import Image from 'next/image'
 
 
 const Footer = () => {
   return (
-    <div className="w-full h-full bg-transparent text-gray-200 shadow-lg p-[15px] ">
+    <div id="about" className="w-full h-full bg-transparent text-gray-200 shadow-lg p-[15px] ">
         <div className="w-full flex flex-col items-center justify-center m-auto">
 
             <div className='font-bold text-3xl md:text-4xl pb-10'>

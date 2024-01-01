@@ -14,41 +14,42 @@ import Image from "next/image";
 
 const Hero = () => {
   return (
-    <div className='p-10 min-h-screen flex justify-left items-top bg-gradient-radial bg-center bg-cover from-yellow-500 to-red-500 space-x-10'>
-      <StarCanvas/>
+    <div className='min-h-screen flex justify-left items-top bg-gradient-radial bg-center bg-cover from-yellow-500 to-red-500 px-6'>
+      <StarCanvas />
       <motion.div
         initial="hidden"
         animate="visible"
-        className="flex flex-row items-center justify-center px-20 mt-40 w-full z-[20]"
+        className="flex flex-col md:flex-row items-center justify-center md:justify-evenly h-screen w-full "
       >
-        <div className="h-full w-full flex flex-col gap-5 justify-center m-auto text-start">
+        <div className="h-full sm:mt-44 w-fit flex flex-col  justify-center text-start text-2xl sm:text-3xl md:text-4xl lg:text-5xl">
           <motion.div
             variants={slideInFromLeft(0.5)}
-            className="flex flex-col gap-6 mt-6 text-5xl font-bold text-white max-w-[600px] w-auto h-auto"
+            className="flex flex-col font-bold text-white max-w-[600px] w-auto h-auto drop-shadow-2xl"
           >
-            <span>
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
+            <p className='leading-normal'>
+              <span className=" text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
                 {" "}
                 श्री संकट मोचन हनुमान मंदिर{" "}
               </span>
               के पवित्र माहौल को अपनाएं, और दिव्य आशीर्वाद और शांति की तलाश में हमारे साथ जुड़ें।
-            </span>
+            </p>
           </motion.div>
         </div>
 
         <motion.div
           variants={slideInFromRight(0.8)}
-          className="w-full h-full flex justify-center items-center"
+          className=""
         >
           <Image
             src="/NavLogo.png"
             alt="work icons"
             height={650}
             width={650}
+            className='drop-shadow-2xl'
           />
         </motion.div>
       </motion.div>
-      
+
     </div>
   )
 }
