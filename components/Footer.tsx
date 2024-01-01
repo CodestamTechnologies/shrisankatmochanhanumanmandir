@@ -16,14 +16,13 @@ const Footer = () => {
     <div className="w-full h-full bg-transparent text-gray-200 shadow-lg p-[15px] ">
         <div className="w-full flex flex-col items-center justify-center m-auto">
 
-            <div className={`bg-cswhite container h-full mx-auto pb-8 px-8 md:px-14 md:text-3xl`}>
-                Crafted with precision by Codestam Technologies. We specialize in building dynamic 
-                <span className=" bg-clip-text font-extrabold">
-                {" "}
-                websites{" "}
-              </span>
-                and creating robust tech ecosystems for businesses and enterprises. Elevate your digital presence with our expertise.
+            <div className='font-bold text-3xl md:text-4xl pb-10'>
+                <div className='font-bold text-3xl md:text-4xl '>
+                    क्या हमसे कुछ छूट गया है।
+                    <a href="https://www.codestam.com/">हमें यहां बताएं</a>
+                </div>
             </div>
+
             <div className={`bg-cswhite container h-full mx-auto pb-8 px-8 md:px-14 md:text-3xl`}>
                 Codestam Technologies द्वारा सटीकता के साथ तैयार किया गया। हम गतिशील वेबसाइट बनाने और 
                 <span className=" bg-clip-text font-extrabold">
@@ -32,7 +31,17 @@ const Footer = () => {
               </span>
                 और उद्यमों के लिए मजबूत तकनीकी पारिस्थितिकी तंत्र बनाने में विशेषज्ञ हैं। हमारी विशेषज्ञता के साथ अपनी डिजिटल उपस्थिति को बढ़ाएं।
             </div>
-            <div className='h-full w-screen  px-6 sm:px-8 md:px-16 xl:px-24'>
+
+            <div className={`bg-cswhite container h-full mx-auto pb-8 px-8 md:px-14 md:text-3xl`}>
+                Crafted with precision by Codestam Technologies. We specialize in building dynamic 
+                <span className=" bg-clip-text font-extrabold">
+                {" "}
+                websites{" "}
+              </span>
+                and creating robust tech ecosystems for businesses and enterprises. Elevate your digital presence with our expertise.
+            </div>
+            
+            <div className='h-full w-screen  px-6 sm:px-8 md:px-16 xl:px-24 '>
             <div className={`bg-cswhite container h-full mx-auto pb-8 px-8 md:px-14`}>
                 <div className='font-bold text-3xl md:text-4xl '>
                     DEVELOPED BY CODESTAM TECHNOLOGIES
@@ -81,7 +90,7 @@ const Footer = () => {
                     </div>
                 </div>
                 <div className="max-w-screen-xl px-4  mx-auto  overflow-hidden sm:px-6 lg:px-8">
-                    <p className="mt-8 text-base leading-6 text-center text-gray-400">
+                    <p className="mt-8 text-base leading-6 text-center text-gradient-radial from-yellow-500 to-red-500">
                         © Codestam Technologies. All Rights Reserved
                     </p>
 
