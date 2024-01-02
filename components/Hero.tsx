@@ -14,14 +14,9 @@ import Image from "next/image";
 
 const Hero = () => {
   return (
-<<<<<<< HEAD
-    
-    <div className='p-10 min-h-screen flex justify-left items-top bg-gradient-radial bg-center bg-cover from-yellow-500 to-red-500 space-x-10'>
-      <StarCanvas/>
-=======
+
     <div className='min-h-screen flex justify-left items-top bg-gradient-radial bg-center bg-cover from-yellow-500 to-red-500 px-6'>
       <StarCanvas />
->>>>>>> 74edbfc2b1c4f594ad891c5900fa02de603b7117
       <motion.div
         initial="hidden"
         animate="visible"
