@@ -13,7 +13,7 @@ import Image from 'next/image'
 
 const Footer = () => {
   return (
-    <div className="w-full h-full bg-transparent text-gray-200 shadow-lg p-[15px] ">
+    <div className="w-full h-full bg-transparent text-gray-200 shadow-lg p-[15px]" id='about'>
         <div className="w-full flex flex-col items-center justify-center m-auto">
 
             <div className='font-bold text-3xl md:text-4xl pb-10'>

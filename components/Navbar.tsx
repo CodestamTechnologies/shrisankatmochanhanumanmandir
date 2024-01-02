@@ -12,10 +12,11 @@ const Navbar = () => {
                         श्री संकट मोचन हनुमान मंदिर
                       </span>
             </a>
-            <div className='w-[500px] h-full flex flex-row items-center justify-between md:mr-20'>
+            <div className='h-full flex flex-row items-center justify-between md:mr-20'>
                 <div className='flex items-center justify-between w-full h-auto border border-[#7042f861] bg-[#0300145e] mr-[5px] px-[20px] py-[10px] rounded-full text-gray-200'>
                      <a href='#timeline' className='cursor-pointer'>Timeline</a>
-                     <a href='#gallery' className='cursor-pointer'>Gallery</a>
+                </div>
+                <div className='flex items-center justify-between w-full h-auto border border-[#7042f861] bg-[#0300145e] mr-[5px] px-[20px] py-[10px] rounded-full text-gray-200'>
                      <a href='#about' className='cursor-pointer'>About</a>
                 </div>
             </div>
